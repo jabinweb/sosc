@@ -2,8 +2,9 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import blogPosts from '../../../content/blog-posts.json';
 
-export default function BlogPost({ params }: { params: { id: string } }) {
-  const postId = parseInt(params.id);
+export default async function BlogPost({ params }: { params: Promise<{ id: string }> }) {
+  const { id } = await params;
+  const postId = parseInt(id);
   const post = blogPosts.find(p => p.id === postId);
 
   if (!post) {
