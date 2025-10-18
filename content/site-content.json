@@ -1,0 +1,384 @@
+{
+  "site": {
+    "name": "School of Social Change",
+    "shortName": "SoSC",
+    "tagline": "Opening Doors to Learning & Opportunity",
+    "description": "Addressing education mortality through interdisciplinary approaches at the intersection of implementation and policy"
+  },
+  "navigation": {
+    "items": [
+      { "label": "Why We Exist", "href": "/" },
+      { "label": "Who We Are", "href": "/about" },
+      { "label": "What We Do", "href": "/programs" },
+      { "label": "Get Involved", "href": "/get-involved" },
+      { "label": "Blog", "href": "/blog" }
+    ]
+  },
+  "homepage": {
+    "hero": {
+      "title": "Opening Doors to Learning & Opportunity",
+      "subtitle": "Addressing Education Mortality Through Systemic Change",
+      "description": "We envision a world where every child can walk through open doors of learning and opportunity, regardless of their background or circumstances."
+    },
+    "challenge": {
+      "title": "Education Mortality",
+      "subtitle": "A Critical Reality in India's Education System",
+      "description": "Just like infant or maternal mortality, education mortality reveals a harsh truth — many children are lost along the journey of learning. Social and economic barriers continue to decide who gets access, who drops out, and who feels left behind. For some, education is out of reach; for others, it loses meaning. In the worst cases, it becomes a source of despair instead of hope.",
+      "statistics": [
+        { "number": "3.3M", "label": "Registered NGOs in India" },
+        { "number": "60", "label": "Years of educational data showing inequality" },
+        { "number": "2030", "label": "India to become 3rd largest economy" }
+      ]
+    },
+    "causes": {
+      "title": "The Spectrum of Education Mortality",
+      "subtitle": "From Access to Relevance: Understanding the Full Challenge",
+      "items": [
+        {
+          "category": "Access Barriers",
+          "causes": ["Tribal and minority children excluded", "Poverty and migration impacts", "Conflict-affected families", "Language and cultural barriers"]
+        },
+        {
+          "category": "Quality Issues",
+          "causes": ["Poor learning outcomes", "Inadequate teacher training", "Lack of relevant curriculum", "Insufficient resources"]
+        },
+        {
+          "category": "Relevance Crisis",
+          "causes": ["Education disconnected from life", "Limited job opportunities", "Lack of meaningful work", "Skills-employment mismatch"]
+        },
+        {
+          "category": "Mental Health",
+          "causes": ["Student suicide epidemic", "Academic pressure", "Closed doors feeling", "Loss of hope and opportunity"]
+        }
+      ]
+    },
+    "approach": {
+      "title": "Our Three-Pillar Approach",
+      "subtitle": "Bridging Implementation and Policy for Systemic Change",
+      "items": [
+        {
+          "letter": "A",
+          "title": "Activating Existing Systems",
+          "description": "Working within current educational frameworks through transformation projects, capacity building, and consulting to improve outcomes without creating parallel systems."
+        },
+        {
+          "letter": "B",
+          "title": "Building Something Original",
+          "description": "Developing innovative solutions for hidden potential, gender & sexuality education, and mental health support to bridge critical gaps in the system."
+        },
+        {
+          "letter": "C",
+          "title": "Catalysing Civic Conversations",
+          "description": "Creating cultural shifts around education through internships, thought leadership, and online learning to change how society views educational transformation."
+        }
+      ]
+    },
+    "theoryOfChange": {
+      "title": "Our Journey & Governance",
+      "description": "School of Social Change functions uniquely at the intersection between program implementation and policy influence. We implement programs to improve quality of life while extracting learning to inform relevant policies and scale social change.",
+      "steps": [
+        {
+          "step": "Q1",
+          "title": "Foundation & Study",
+          "description": "Complete legal incorporation, conduct landscape study, begin fundraising and summer internships"
+        },
+        {
+          "step": "Q2",
+          "title": "Design & Recruitment",
+          "description": "Finalize 2-3 pilot projects, complete team recruitment, launch fundraising campaigns"
+        },
+        {
+          "step": "Q3",
+          "title": "Implementation",
+          "description": "Execute pilot projects, document learnings, prepare project pitches for scaling"
+        },
+        {
+          "step": "Q4",
+          "title": "Reflection & Planning",
+          "description": "Extract learnings from pilots, plan future direction, develop proposals for upcoming year"
+        }
+      ]
+    }
+  },
+  "about": {
+    "hero": {
+      "title": "The Founding Aspiration",
+      "subtitle": "Returning to the Roots of Social Change",
+      "description": "Since 1947, India has been an independent democracy. By 2047, it will be a hundred years of independence. As we approach this milestone, we must address the increasing polarisation and widening inequality threatening our social fabric."
+    },
+    "foundingAspiration": {
+      "title": "Our Uniqueness",
+      "content": "Since 1947, India has been an independent democracy. In 2047, it will be a hundred years of independence. By 2030, we are expected to become the world's third largest economy. In the initial decades of independence, India used to take pride in the unity within our diversity. Today, the social fabric of our nation feels more vulnerable. The increasing polarisation, widening inequality, and such societal fault-lines are threatening our future. India is at this critical crossroad. A core conviction behind forming SoSC is this - what we collectively do in upcoming decades will determine who we become as a nation, and the answers we seek are not merely political, economic or technological. We need to return to the very roots of how social change occurs. School of Social Change is envisioned as a learning organisation to imagine afresh and model how social change can be effectively implemented. We want to promote more reflection and learning among professionals working in key service departments / sectors such as social work, education, philanthropy, health, etc. In a country with 3.3 million registered NGOs, thousands of organisations do the laudable work of implementing programs that improve the quality of life for different people-groups. However, these programs are unable to make a significant dent in the system, given the enormity of the challenges we face in India. School of Social Change is envisioned to function uniquely at the intersection between the implementation of programs and informing policy decisions. We don't just want to be an implementation organisation, or a policy organisation, but a hybrid of these two."
+    },
+    "vision": "Typically, schools have an imposing metal door with a security guard stationed to ensure that all access is restricted. Imagine a world where metaphorically every school has an open door. A world where any child irrespective of whatever trauma they have undergone in their families or communities of origin, can walk into and through doors of learning & opportunity. Our vision encompasses: 1) Door of Opportunity - We envision a world where children across the education mortality spectrum find the right open door for them, addressing challenges of access, quality or relevance. 2) Formation of Identity - Education has a critical role beyond providing life opportunities for students. There is an aspect of nurturing the identity of students at formative developmental stages. 3) Character & Worldview - Education also has a role in shaping the character skills and the worldview of students; this is the way in which education becomes a vehicle of social change.",
+    "mission": "To function uniquely at the intersection between implementation and policy, extracting learning from programs to inform policies and using public policies to scale up social change.",
+    "values": [
+      {
+        "title": "Door of Opportunity",
+        "description": "Children across the education mortality spectrum find the right open door, addressing access, quality, and relevance."
+      },
+      {
+        "title": "Formation of Identity", 
+        "description": "Education nurtures student identity at formative developmental stages beyond just providing opportunities."
+      },
+      {
+        "title": "Character & Worldview",
+        "description": "Education shapes character skills and worldview, becoming a vehicle of social change."
+      },
+      {
+        "title": "Systems Thinking",
+        "description": "We approach social problems with interdisciplinary, intersectional, and systems perspectives."
+      }
+    ],
+    "objectives": [
+      "To build a civic conversation on education reform, by raising awareness on quality education. To organise conferences, enlist volunteers, and engage with relevant stakeholders, to shape the future of education in India",
+      "To collaborate and consult with government bodies, educational institutions, corporates, foundations, NGOs, etc. to identify gaps and opportunities in the education system and policy, and to propose and build capacity for reforms. To undertake research, impact evaluation of education interventions, and pilot-testing of new pedagogies, curricula, assessment methods, innovations or technologies that enhance the quality and accessibility of education", 
+      "To contribute to the development of educational infrastructure, such as classrooms, libraries, laboratories, and other facilities, prioritising the most underserved schools or regions. To undertake a variety of programs that improve quality of education and learning outcomes for all students, regardless of their socio-economic background, gender, or ability including transformation projects, scholarships, etc",
+      "To support and promote key components of a holistic education such as arts, culture, values, mental health and well-being, etc. To provide opportunities for students and young people to explore, express and develop their artistic, cultural, and personal identities and aspirations",
+      "To establish, organise, start, promote, construct, maintain, run, develop and improve educational institutions for students of all backgrounds, without distinction of caste, creed or religion. To offer a range of educational programs, such as formal and non-formal education, vocational training, skill development programs, faculty development programs, etc. catering to the diverse needs and aspirations of learners, and preparing them for the future"
+    ],
+    "governance": {
+      "legalBoard": {
+        "name": "Legal/Statutory Board",
+        "description": "3-4 member team serving as signatories and directors as per government requirements",
+        "members": []
+      },
+      "advisoryPanel": {
+        "name": "Advisory Panel", 
+        "description": "Wider team offering expertise in education and philanthropy to organizational strategies",
+        "members": []
+      },
+      "nextGenBoard": {
+        "name": "Next-Gen Board",
+        "description": "Younger partners investing time, talent and energy into SoSC's vision",
+        "members": []
+      },
+      "executiveTeam": {
+        "name": "Executive Team",
+        "description": "Full-time leaders developing over time to lead SoSC's work",
+        "members": []
+      }
+    },
+    "journey": {
+      "title": "Our Journey - Year 1 Roadmap",
+      "description": "The goal for any start-up in the first few years, is to figure out the right thing to build. For an organisation like School of Social Change, that envisions a transformation within Education, it is to identify the right portfolio of solutions that will be most meaningful to invest organisational time, energy and resources into, in the several years to come.",
+      "quarters": [
+        {
+          "quarter": "Q1",
+          "months": [
+            {
+              "month": "April",
+              "priorities": ["Complete Legal Incorporation"]
+            },
+            {
+              "month": "May",
+              "priorities": ["Board Meeting #1", "Bank Account Set Up"]
+            },
+            {
+              "month": "June", 
+              "priorities": ["Landscape study", "Begin fundraising (friends & family)", "Summer Internships"]
+            }
+          ]
+        },
+        {
+          "quarter": "Q2",
+          "months": [
+            {
+              "month": "July",
+              "priorities": ["Landscape study", "Fundraising (project-based)", "Complete recruitment of initial members"]
+            },
+            {
+              "month": "August",
+              "priorities": ["Board Meeting #2", "Finalise 2-3 pilot projects", "Fundraising campaign for pilot projects"]
+            },
+            {
+              "month": "September",
+              "priorities": ["Implementation of pilot projects", "Fundraising campaign for pilot projects"]
+            }
+          ]
+        },
+        {
+          "quarter": "Q3", 
+          "months": [
+            {
+              "month": "October",
+              "priorities": ["Implementation of pilot projects"]
+            },
+            {
+              "month": "November",
+              "priorities": ["Board Meeting #3", "Implementation of pilot projects"]
+            },
+            {
+              "month": "December",
+              "priorities": ["Implementation of pilot projects", "Project Pitches"]
+            }
+          ]
+        },
+        {
+          "quarter": "Q4",
+          "months": [
+            {
+              "month": "January",
+              "priorities": ["Implementation of pilot projects", "Documenting learnings from pilot projects to inform future direction"]
+            },
+            {
+              "month": "February",
+              "priorities": ["CCC – output 1", "Board Meeting #4", "Year end reflection and planning"]
+            },
+            {
+              "month": "March",
+              "priorities": ["Year-end reflection and planning", "Proposals for the upcoming year"]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "programs": {
+    "hero": {
+      "title": "Our Programs",
+      "subtitle": "Three Pillars of Transformation",
+      "description": "We work across three interconnected areas to create sustainable change in education."
+    },
+    "activatingExisting": {
+      "name": "Activating Existing Systems",
+      "tagline": "Working Within Current Frameworks",
+      "description": "Because the vision is not to create a parallel system, but to impact the outcomes of the existing system.",
+      "programs": [
+        {
+          "name": "Transformation Projects",
+          "description": "Direct interventions in schools and educational institutions"
+        },
+        {
+          "name": "Capacity Building",
+          "description": "Training and development programs for educators and administrators"
+        },
+        {
+          "name": "Consulting",
+          "description": "Strategic advisory services for educational organizations"
+        }
+      ],
+      "targetAudience": "Schools, government institutions, existing NGOs",
+      "callToAction": "Partner with us for transformation"
+    },
+    "buildingOriginal": {
+      "name": "Building Something Original",
+      "tagline": "Bridging Critical Gaps",
+      "description": "Because the gaps in the system are real, and new creative imagination is needed to bridge these.",
+      "programs": [
+        {
+          "name": "Hidden Potential",
+          "description": "Unlocking untapped capabilities in underserved communities"
+        },
+        {
+          "name": "Gender & Sexuality",
+          "description": "Comprehensive education on gender identity and sexual health"
+        },
+        {
+          "name": "Mental Health",
+          "description": "Addressing student suicide and psychological well-being"
+        }
+      ],
+      "targetAudience": "Students, families, marginalized communities",
+      "callToAction": "Explore innovative solutions"
+    },
+    "catalysingConversations": {
+      "name": "Catalysing Civic Conversations", 
+      "tagline": "Creating Cultural Shifts",
+      "description": "Because education mortality will only change when there is a cultural shift around education.",
+      "programs": [
+        {
+          "name": "Internships & Volunteers",
+          "description": "Engaging young people in educational transformation"
+        },
+        {
+          "name": "Thought Leadership",
+          "description": "Research, writing, and advocacy for education reform"
+        },
+        {
+          "name": "Online Courses & Webinars",
+          "description": "Digital platforms for widespread learning and engagement"
+        }
+      ],
+      "targetAudience": "Citizens, policymakers, thought leaders",
+      "callToAction": "Join the conversation"
+    }
+  },
+  "getInvolved": {
+    "hero": {
+      "title": "Get Involved", 
+      "subtitle": "Be Part of the Change",
+      "description": "Join us in addressing education mortality and opening doors to learning and opportunity for every child."
+    },
+    "donate": {
+      "title": "Support Our Mission",
+      "description": "Your contribution helps us implement programs and influence policies for sustainable educational transformation.",
+      "donationTiers": [
+        {
+          "amount": 2500,
+          "impact": "Supports pilot project development and testing"
+        },
+        {
+          "amount": 10000,
+          "impact": "Funds landscape study and research initiatives"  
+        },
+        {
+          "amount": 50000,
+          "impact": "Enables comprehensive transformation project implementation"
+        }
+      ]
+    },
+    "volunteer": {
+      "title": "Share Your Expertise",
+      "description": "Contribute your skills and experience to create lasting change in education.",
+      "opportunities": [
+        {
+          "role": "Program Facilitator",
+          "commitment": "Support transformation projects and capacity building",
+          "skills": "Education, social work, or community development experience"
+        },
+        {
+          "role": "Research Contributor", 
+          "commitment": "Assist with landscape studies and policy research",
+          "skills": "Research methodology, data analysis, writing skills"
+        },
+        {
+          "role": "Advisory Panel Member",
+          "commitment": "Strategic guidance and expertise sharing",
+          "skills": "Senior experience in education, philanthropy, or policy"
+        },
+        {
+          "role": "Next-Gen Board Member",
+          "commitment": "Time, talent, and energy investment in SoSC vision",
+          "skills": "Passion for education reform and social change"
+        }
+      ]
+    },
+    "workWithUs": {
+      "title": "Join Our Team",
+      "description": "Be part of the executive team developing innovative solutions for education mortality.",
+      "currentOpenings": [
+        "Program Manager - Transformation Projects",
+        "Research Associate - Policy Analysis", 
+        "Community Engagement Coordinator"
+      ]
+    },
+    "contact": {
+      "title": "Connect With Us",
+      "email": "hello@schoolofsocialchange.org",
+      "phone": "+91 98765 43210",
+      "address": "Chennai, Tamil Nadu, India",
+      "socialMedia": {
+        "youtube": "https://youtube.com/@sosc",
+        "linkedin": "https://linkedin.com/company/sosc",
+        "instagram": "https://instagram.com/sosc_official", 
+        "facebook": "https://facebook.com/sosc.official"
+      }
+    }
+  },
+  "blog": {
+    "title": "Insights & Learning",
+    "subtitle": "Documenting our journey and extracting wisdom",
+    "description": "Follow our reflections on education mortality, social change, and the intersection of implementation and policy."
+  }
+}

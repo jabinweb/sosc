@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "title": "Transforming Teacher Training: Our Impart Program Makes Impact",
+    "excerpt": "How innovative pedagogical methods are revolutionizing classroom experiences across Tamil Nadu schools.",
+    "content": "Our Impart program has reached over 500 teachers in its first year, implementing evidence-based teaching methodologies that have shown measurable improvements in student engagement and learning outcomes. Through interactive workshops and continuous mentoring, we're seeing remarkable transformations in how education is delivered.",
+    "author": "Dr. Sarah Johnson",
+    "publishDate": "2025-01-15",
+    "category": "Programs",
+    "tags": ["teacher training", "pedagogy", "education reform"],
+    "featured": true
+  },
+  {
+    "id": 2,
+    "title": "The Silent Crisis: Understanding Education Mortality in India",
+    "excerpt": "A deep dive into the systemic issues that prevent quality education from reaching every child.",
+    "content": "Education mortality—the phenomenon where students physically attend school but fail to receive meaningful learning—affects millions of children across India. Our research reveals that while enrollment rates have improved significantly, learning outcomes remain stagnant. This blog post explores the root causes and our comprehensive approach to addressing this critical challenge.",
+    "author": "SOSC Research Team",
+    "publishDate": "2025-01-10",
+    "category": "Research",
+    "tags": ["education policy", "research", "learning outcomes"],
+    "featured": true
+  },
+  {
+    "id": 3,
+    "title": "Deetox Success Stories: Healing Through Conversation",
+    "excerpt": "Real stories of transformation through our counselling and coaching programs.",
+    "content": "Our Deetox program has provided support to over 200 families in the past six months. From helping students overcome exam anxiety to supporting parents in understanding their children's needs, the impact has been profound. In this post, we share some inspiring success stories while maintaining the privacy and dignity of those we serve.",
+    "author": "Counselling Team",
+    "publishDate": "2025-01-05",
+    "category": "Impact",
+    "tags": ["counselling", "mental health", "student support"],
+    "featured": false
+  },
+  {
+    "id": 4,
+    "title": "Foresight: Reimagining Career Conversations in India",
+    "excerpt": "Why January 26th will mark a turning point in how young Indians think about their futures.",
+    "content": "Traditional career guidance in India often limits students to a narrow set of 'safe' options. Our upcoming Foresight platform challenges this approach by providing AI-powered career assessments, connecting students with industry mentors, and offering insights into emerging job markets. As we prepare for our Republic Day launch, we're excited to share how this tool will democratize access to quality career guidance.",
+    "author": "Product Team",
+    "publishDate": "2025-01-01",
+    "category": "Innovation",
+    "tags": ["career guidance", "AI", "technology", "foresight"],
+    "featured": false
+  },
+  {
+    "id": 5,
+    "title": "Policy Recommendations for Sustainable Education Reform",
+    "excerpt": "Our evidence-based policy brief submitted to the Tamil Nadu Education Department.",
+    "content": "Based on 18 months of field research and program implementation, SOSC has submitted a comprehensive policy brief to state education authorities. Our recommendations focus on teacher professional development, community engagement strategies, and sustainable funding mechanisms for education quality improvement. The brief has been well-received and is under active consideration for implementation.",
+    "author": "Policy Research Team",
+    "publishDate": "2024-12-20",
+    "category": "Policy",
+    "tags": ["policy research", "government", "education reform"],
+    "featured": false
+  }
+]
