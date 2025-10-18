@@ -9,30 +9,30 @@ export default function Challenge() {
     const { homepage } = siteContent;
   
     return (
-        <section className="py-20 bg-gray-50">
+        <section className="py-12 sm:py-16 lg:py-20 bg-gray-50">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             
             {/* Section Header */}
             <motion.div 
-                className="text-center mb-16"
+                className="text-center mb-10 sm:mb-12 lg:mb-16"
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.6 }}
             >
-                <div className="inline-flex items-center bg-brand-primary/10 text-brand-primary px-4 py-2 rounded-full text-sm font-medium mb-6">
+                <div className="inline-flex items-center bg-brand-primary/10 text-brand-primary px-3 sm:px-4 py-1.5 sm:py-2 rounded-full text-xs sm:text-sm font-medium mb-4 sm:mb-6">
                 The Challenge
                 </div>
-                <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight">
+                <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4 sm:mb-6 leading-tight px-4">
                 {homepage.challenge.title}
                 </h2>
-                <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
+                <p className="text-base sm:text-lg lg:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed px-4">
                 {homepage.challenge.subtitle}
                 </p>
             </motion.div>
 
             {/* Main Content Grid */}
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-16">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-10 lg:gap-12 items-center mb-12 sm:mb-14 lg:mb-16">
                 
                 {/* Content */}
                 <motion.div
@@ -40,19 +40,19 @@ export default function Challenge() {
                 whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.6 }}
-                className="order-2 lg:order-1"
+                className="order-2 lg:order-1 text-center lg:text-left"
                 >
                 <div className="prose prose-lg max-w-none">
-                    <p className="text-gray-700 leading-relaxed mb-8 text-lg">
+                    <p className="text-gray-700 leading-relaxed mb-6 sm:mb-8 text-base sm:text-lg lg:text-xl">
                     {homepage.challenge.description}
                     </p>
                 </div>
 
-                <div className="flex flex-col sm:flex-row gap-4">
+                <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center lg:justify-start">
                     <Button
                     asChild
                     size="lg"
-                    className="bg-brand-primary hover:bg-brand-primary-700 text-white font-semibold px-8 py-3"
+                    className="bg-brand-primary hover:bg-brand-primary-700 text-white font-semibold px-6 sm:px-8 py-3 text-sm sm:text-base w-full sm:w-auto"
                     >
                     <Link href="/get-involved">Get Involved</Link>
                     </Button>
@@ -60,7 +60,7 @@ export default function Challenge() {
                     asChild
                     variant="outline"
                     size="lg"
-                    className="border-brand-primary text-brand-primary hover:bg-brand-primary hover:text-white font-semibold px-8 py-3"
+                    className="border-brand-primary text-brand-primary hover:bg-brand-primary hover:text-white font-semibold px-6 sm:px-8 py-3 text-sm sm:text-base w-full sm:w-auto"
                     >
                     <Link href="/programs">Learn Our Programs</Link>
                     </Button>
@@ -79,7 +79,7 @@ export default function Challenge() {
 
                     {/* Image Container */}
                     <motion.div 
-                    className="relative z-10 w-80 h-80 lg:w-96 lg:h-96"
+                    className="relative z-10 w-64 h-64 sm:w-80 sm:h-80 lg:w-96 lg:h-96"
                     whileHover={{ scale: 1.05 }}
                     transition={{ duration: 0.3 }}
                     >
@@ -101,7 +101,7 @@ export default function Challenge() {
 
             {/* Impact Statistics */}
             <motion.div
-                className="relative py-24 bg-gradient-to-br from-white via-gray-50 to-blue-50 overflow-hidden"
+                className="relative py-12 sm:py-16 lg:py-24 bg-gradient-to-br from-white via-gray-50 to-blue-50 overflow-hidden"
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
@@ -111,7 +111,7 @@ export default function Challenge() {
                 <div className="absolute inset-0 overflow-hidden">
                     {/* Large geometric shapes for depth */}
                     <motion.div 
-                        className="absolute -top-20 -left-20 w-96 h-96 rounded-full"
+                        className="absolute -top-20 -left-20 w-64 h-64 sm:w-96 sm:h-96 rounded-full"
                         style={{ backgroundColor: 'rgba(75, 183, 154, 0.03)' }}
                         animate={{ 
                             rotate: [0, 360],
@@ -124,7 +124,7 @@ export default function Challenge() {
                         }}
                     />
                     <motion.div 
-                        className="absolute top-1/3 -right-32 w-80 h-80 rounded-full"
+                        className="absolute top-1/3 -right-32 w-56 h-56 sm:w-80 sm:h-80 rounded-full"
                         style={{ backgroundColor: 'rgba(60, 196, 207, 0.04)' }}
                         animate={{ 
                             rotate: [360, 0],
@@ -137,7 +137,7 @@ export default function Challenge() {
                         }}
                     />
                     <motion.div 
-                        className="absolute -bottom-32 left-1/3 w-72 h-72 rounded-full"
+                        className="absolute -bottom-32 left-1/3 w-48 h-48 sm:w-72 sm:h-72 rounded-full"
                         style={{ backgroundColor: 'rgba(253, 187, 35, 0.02)' }}
                         animate={{ 
                             scale: [1, 1.2, 1],
@@ -153,19 +153,19 @@ export default function Challenge() {
 
                 <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     {/* Section Header */}
-                    <div className="text-center mb-20">
+                    <div className="text-center mb-12 sm:mb-16 lg:mb-20">
                         <motion.div
                             initial={{ opacity: 0, scale: 0.9 }}
                             whileInView={{ opacity: 1, scale: 1 }}
                             viewport={{ once: true }}
                             transition={{ duration: 0.6, delay: 0.2 }}
-                            className="inline-flex items-center px-6 py-3 bg-white/80 backdrop-blur-sm border border-gray-200 rounded-full text-sm font-medium mb-8 shadow-lg"
+                            className="inline-flex items-center px-4 sm:px-6 py-2 sm:py-3 bg-white/80 backdrop-blur-sm border border-gray-200 rounded-full text-xs sm:text-sm font-medium mb-6 sm:mb-8 shadow-lg"
                         >
-                            <span className="text-2xl mr-2">📊</span>
+                            <span className="text-xl sm:text-2xl mr-2">📊</span>
                             <span className="text-gray-800 font-semibold">Education Crisis Reality</span>
                         </motion.div>
                         <motion.h3 
-                            className="text-4xl md:text-5xl lg:text-6xl font-black text-gray-900 mb-6 leading-tight"
+                            className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-black text-gray-900 mb-4 sm:mb-6 leading-tight px-4"
                             initial={{ opacity: 0, y: 20 }}
                             whileInView={{ opacity: 1, y: 0 }}
                             viewport={{ once: true }}
@@ -174,7 +174,7 @@ export default function Challenge() {
                             The Numbers Tell Our Story
                         </motion.h3>
                         <motion.p 
-                            className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed"
+                            className="text-base sm:text-lg lg:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed px-4"
                             initial={{ opacity: 0, y: 20 }}
                             whileInView={{ opacity: 1, y: 0 }}
                             viewport={{ once: true }}
@@ -185,7 +185,7 @@ export default function Challenge() {
                     </div>
 
                     {/* Statistics Grid - Dashboard Style Cards */}
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6 mb-20">
+                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-4 sm:gap-5 lg:gap-6 mb-12 sm:mb-16 lg:mb-20">
                         {[
                             { 
                                 title: "Active NGOs", 
@@ -235,7 +235,7 @@ export default function Challenge() {
                         ].map((stat, index) => (
                             <motion.div 
                                 key={index}
-                                className="bg-white rounded-2xl p-6 shadow-lg border border-gray-100 hover:shadow-2xl transition-all duration-300 group relative overflow-hidden"
+                                className="bg-white rounded-xl sm:rounded-2xl p-5 sm:p-6 shadow-lg border border-gray-100 hover:shadow-2xl transition-all duration-300 group relative overflow-hidden"
                                 initial={{ opacity: 0, y: 40 }}
                                 whileInView={{ opacity: 1, y: 0 }}
                                 viewport={{ once: true }}
@@ -248,9 +248,9 @@ export default function Challenge() {
                                 whileHover={{ y: -5 }}
                             >
                                 {/* Header */}
-                                <div className="flex justify-between items-start mb-4">
+                                <div className="flex justify-between items-start mb-3 sm:mb-4">
                                     <div>
-                                        <h4 className="text-gray-900 font-semibold text-sm mb-1">{stat.title}</h4>
+                                        <h4 className="text-gray-900 font-semibold text-xs sm:text-sm mb-1">{stat.title}</h4>
                                         <p className="text-gray-500 text-xs">{stat.subtitle}</p>
                                     </div>
                                     <motion.div 
@@ -270,7 +270,7 @@ export default function Challenge() {
 
                                 {/* Main Number */}
                                 <motion.div 
-                                    className="text-3xl md:text-4xl font-black mb-4"
+                                    className="text-2xl sm:text-3xl md:text-4xl font-black mb-3 sm:mb-4"
                                     style={{ color: stat.color }}
                                     initial={{ scale: 0, opacity: 0 }}
                                     whileInView={{ scale: 1, opacity: 1 }}
@@ -287,7 +287,7 @@ export default function Challenge() {
 
                                 {/* Mini Chart Visualization */}
                                 <motion.div 
-                                    className="h-16 relative overflow-hidden"
+                                    className="h-12 sm:h-16 relative overflow-hidden"
                                     initial={{ opacity: 0 }}
                                     whileInView={{ opacity: 1 }}
                                     viewport={{ once: true }}
@@ -365,7 +365,7 @@ export default function Challenge() {
 
                                     {stat.chartType === 'circle' && (
                                         <div className="flex items-center justify-center h-full">
-                                            <div className="relative w-12 h-12">
+                                            <div className="relative w-10 h-10 sm:w-12 sm:h-12">
                                                 <svg className="w-full h-full transform -rotate-90" viewBox="0 0 36 36">
                                                     <path
                                                         d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"
@@ -398,7 +398,7 @@ export default function Challenge() {
 
                                 {/* Subtle background gradient on hover */}
                                 <motion.div 
-                                    className="absolute inset-0 rounded-2xl opacity-0 group-hover:opacity-5 transition-opacity duration-300 pointer-events-none"
+                                    className="absolute inset-0 rounded-xl sm:rounded-2xl opacity-0 group-hover:opacity-5 transition-opacity duration-300 pointer-events-none"
                                     style={{ backgroundColor: stat.color }}
                                 />
                             </motion.div>
@@ -413,8 +413,8 @@ export default function Challenge() {
                         viewport={{ once: true }}
                         transition={{ duration: 0.8, delay: 0.6 }}
                     >
-                        <div className="bg-white/60 backdrop-blur-sm rounded-3xl p-8 md:p-12 shadow-xl border border-gray-100">
-                            <p className="text-gray-700 mb-8 text-lg md:text-xl leading-relaxed">
+                        <div className="bg-white/60 backdrop-blur-sm rounded-2xl sm:rounded-3xl p-6 sm:p-8 md:p-12 shadow-xl border border-gray-100">
+                            <p className="text-gray-700 mb-6 sm:mb-8 text-base sm:text-lg md:text-xl leading-relaxed">
                                 Every statistic represents millions of children whose educational journey has been disrupted. 
                                 <strong className="text-[#133E7C]"> The time for systemic change is now.</strong>
                             </p>
@@ -426,7 +426,7 @@ export default function Challenge() {
                                 <Button
                                     asChild
                                     size="lg"
-                                    className="bg-brand-primary text-white font-bold px-12 py-6 text-lg shadow-2xl rounded-full border-0 transition-all duration-300"
+                                    className="bg-brand-primary text-white font-bold px-8 sm:px-12 py-4 sm:py-6 text-base sm:text-lg shadow-2xl rounded-full border-0 transition-all duration-300 w-full sm:w-auto"
                                 >
                                     <Link href="/get-involved">
                                         Join the Movement 
