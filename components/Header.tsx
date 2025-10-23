@@ -59,7 +59,7 @@ export default function Header() {
                 alt="SOSC Logo"
                 width={40}
                 height={40}
-                className="w-auto h-8 sm:h-10 md:h-12 transition-transform duration-300 group-hover:scale-105"
+                className="w-auto h-10 sm:h-10 md:h-12 transition-transform duration-300 group-hover:scale-105"
               />
               <div className="hidden sm:block">
               </div>

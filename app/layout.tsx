@@ -15,6 +15,9 @@ export const metadata: Metadata = {
   title: "School of Social Change - Transforming Education for a Better Tomorrow",
   description: "SOSC addresses education mortality through innovative teacher training, counselling services, and policy research. Join our mission to revolutionize learning in India.",
   keywords: "education, social change, teacher training, counselling, policy research, India, SOSC",
+  icons: {
+    icon: '/logos/favicon.svg',
+  },
 };
 
 export default function RootLayout({
@@ -24,9 +27,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head>
-        <link rel="icon" href="/favicon.svg" />
-      </head>
       <body
         className={`${poppins.variable} font-sans antialiased`}
       >

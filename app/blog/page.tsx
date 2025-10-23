@@ -178,28 +178,6 @@ export default function BlogPage() {
           </div>
         </div>
       </section>
-
-      {/* Newsletter Signup */}
-      <section className="py-16 bg-gradient-to-r from-brand-primary to-brand-secondary text-white">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl font-bold mb-4">
-            Stay Updated with Our Latest Insights
-          </h2>
-          <p className="text-xl mb-8">
-            Subscribe to our newsletter to receive the latest blog posts and updates directly in your inbox.
-          </p>
-          <div className="flex flex-col sm:flex-row max-w-md mx-auto">
-            <input
-              type="email"
-              placeholder="Enter your email address"
-              className="flex-1 px-4 py-3 rounded-l-lg sm:rounded-r-none rounded-r-lg text-gray-900 focus:outline-none focus:ring-2 focus:ring-white"
-            />
-            <button className="bg-white text-brand-primary px-6 py-3 rounded-r-lg sm:rounded-l-none rounded-l-lg font-semibold hover:bg-gray-100 transition-colors mt-2 sm:mt-0">
-              Subscribe
-            </button>
-          </div>
-        </div>
-      </section>
     </div>
   );
 }
